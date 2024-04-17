@@ -1,0 +1,25 @@
+/*
+--------------------------------------------------------
+ BASE STYLES
+ Set up variables and custom props
+-------------------------------------------------------- 
+*/
+@import "./_1_base/reset.css";
+@import "./_1_base/base.css";
+
+/*
+--------------------------------------------------------
+ ELEMENT STYLES
+ Set up variables and custom props
+-------------------------------------------------------- 
+*/
+@import "./_2_elements/container.css";
+
+/*
+--------------------------------------------------------
+ COMPONENTS STYLES
+ Set up variables and custom props
+-------------------------------------------------------- 
+*/
+@import "./_3_components/sidebar.css";
+

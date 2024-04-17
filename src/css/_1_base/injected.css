@@ -1,0 +1,307 @@
+:root {
+  --chpy-color-toggle-bg: #232323;
+  --chpy-color-toggle-icon: #e3e3e3;
+  --chpy-color-toggle-border: #000;
+
+  --chpy-color-menu-text: #e1e1e1;
+  --chpy-color-menu-text-active: #434343;
+
+  /* --chpy-color-input-shadow: inset 0px 2px 0px rgba(255, 255, 255, 0.5); */
+  --chpy-color-input-background: rgba(217, 217, 217, 0.8);
+  /* --chpy-color-input-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), rgba(217, 217, 217, 0.2); */
+
+  --chpy-color-white: #ffffff;
+
+  /* SIDEBAR VARIABLES */
+  --chpy-sidebar-width: 496px;
+  --chpy-sidebar-margin: 8px;
+  --chpy-message-spacing: 14px;
+
+  /* Spacing */
+  --chpy-spacing: 16px;
+
+  /* CHAT INPUT */
+  --chpy-chat-input-height: 120px;
+
+  /* Buttons */
+  --chpy-button-inactive: #d0d0d0;
+  --chpy-button-inactive-text: rgba(67, 67, 67, 0.5);
+  --chpy-button-active: #434343;
+  --chpy-button-active-text: #ffffff;
+  --chpy-button-radius: 16px;
+  --chpy-button-border: rgba(239, 239, 239, 0.15);
+  --chpy-button-hover: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.2)
+    ),
+    #434343;
+  --chpy-navbar-cursor-bg: rgba(67, 67, 67, 0.1);
+  --chpy-button-trash-hover: #434343;
+  --chpy-button-trash-color: #ffffff;
+
+  /* Checkbox */
+
+  /* Background */
+  --chpy-color-bg: #d9d9d9;
+  --chpy-color-bg-secondary: #ffffff;
+  --chpy-color-bg-border: #c6c6c6;
+  --chpy-color-bg-hover: rgba(0, 0, 0, 0.05);
+  --chpy-box-shadow: inset 0px 2px 0px rgba(255, 255, 255, 0.5);
+  --chpy-color-bg-gradient: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.25) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    #d9d9d9;
+  --chpy-navbar-bg: #d9d9d9;
+
+  /* Text */
+  --chpy-color-text: #434343;
+  --chpy-navbar-color-text: #434343;
+
+  /* Divider */
+  --chpy-color-divider-top: #c6c6c6;
+  --chpy-color-divider-bottom: #ffffff;
+
+  /* Radius */
+  --chpy-sidebar-radius: 16px;
+
+  /* Profile Icons */
+  --chpy-profile-bg: #cacaca;
+  --chpy-profile-color: #434343;
+
+  --chpy-navbar-height: 40px;
+
+  /* Prompt */
+  --chpy-prompt-highlight: #d0d0d0;
+  /* Inline Prompt Box */
+  --chpy-inlineprompt-bg: #efefef;
+  --chpy-inlineprompt-color: #000000;
+  --chpy-inlinepromot-msgtext: #181818;
+  --chpy-inlineprompt-border: #adadad;
+}
+
+.chpy-theme-window98 {
+  /* Buttons */
+  --chpy-button-active: #000080;
+  --chpy-button-active-text: #ffffff;
+  --chpy-button-inactive: #ffffff;
+  --chpy-button-inactive-text: rgba(0, 0, 0, 0.5);
+  --chpy-button-border: rgba(0, 0, 128, 0.15);
+  --chpy-navbar-cursor-bg: rgba(255, 255, 255, 0.2);
+  --chpy-button-hover: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.2)
+    ),
+    #000080;
+  --chpy-button-trash-hover: #000080;
+  --chpy-button-trash-color: #ffffff;
+
+  /* Background */
+  --chpy-color-bg: #d3d3d3;
+  --chpy-color-bg-secondary: #ffffff;
+  --chpy-color-bg-border: #adadad;
+  --chpy-color-bg-hover: rgba(0, 0, 0, 0.05);
+  --chpy-box-shadow: inset 0px 2px 0px rgba(255, 255, 255, 0.1);
+  --chpy-color-bg-gradient: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.25) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    #d9d9d9;
+  --chpy-navbar-bg: linear-gradient(0deg, #000080, #000080),
+    linear-gradient(90deg, #000080 0%, #0842ad 49.48%, #0884ce 100%);
+
+  /* Text */
+  --chpy-color-text: #000000;
+  --chpy-navbar-color-text: #ffffff;
+
+  /* Checkbox */
+  --chpy-checkbox-border: #adadad;
+
+  /* Prompt */
+  --chpy-prompt-bg: #ffffe1;
+  --chpy-prompt-color: #181818;
+  --chpy-prompt-highlight: #000080;
+
+  /* Divider */
+  --chpy-color-divider-top: #adadad;
+  --chpy-color-divider-bottom: rgba(255, 255, 255, 0.3);
+
+  /* Input */
+  --chpy-color-input-gradient: #d3d3d3;
+
+  /* Profile Icons */
+  --chpy-profile-bg: rgba(0, 0, 0, 0.1);
+  --chpy-profile-color: #000000;
+
+  /* Checkbox */
+  --chpy-checkbox-border: #adadad;
+
+  /* Inline Prompt Box */
+  --chpy-inlineprompt-bg: #ffffe1;
+  --chpy-inlineprompt-color: #000000;
+  --chpy-inlinepromot-msgtext: #181818;
+  --chpy-inlineprompt-border: #adadad;
+}
+
+.chpy-theme-dark {
+  /* Buttons */
+  --chpy-button-active: #e1e1e1;
+  --chpy-button-active-text: #232323;
+  --chpy-button-inactive: #252525;
+  --chpy-button-inactive-text: rgba(277, 277, 277, 0.5);
+  --chpy-button-border: rgba(24, 24, 24, 0.15);
+  --chpy-color-bg-hover: rgba(255, 255, 255, 0.05);
+  --chpy-navbar-cursor-bg: rgba(255, 255, 255, 0.1);
+  --chpy-button-hover: linear-gradient(
+      0deg,
+      rgba(24, 24, 24, 0.2),
+      rgba(24, 24, 24, 0.2)
+    ),
+    #e1e1e1;
+  --chpy-button-trash-hover: rgba(255, 255, 255, 0.1);
+  --chpy-button-trash-color: #ffffff;
+
+  /* Background */
+  --chpy-color-bg: #181818;
+  --chpy-color-bg-secondary: #232323;
+  --chpy-color-bg-border: #000000;
+  --chpy-box-shadow: inset 0px 2px 0px rgba(255, 255, 255, 0.1);
+  --chpy-color-bg-gradient: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.25) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    #d9d9d9;
+  --chpy-navbar-bg: #181818;
+
+  /* Text */
+  --chpy-color-text: #e1e1e1;
+  --chpy-navbar-color-text: #e1e1e1;
+
+  /* Divider */
+  --chpy-color-divider-top: #000000;
+  --chpy-color-divider-bottom: rgba(255, 255, 255, 0.1);
+
+  /* Input */
+  --chpy-color-input-gradient: rgba(24, 24, 24, 0.8);
+
+  /* Profile Icons */
+  --chpy-profile-bg: #2f2f2f;
+  --chpy-profile-color: #e1e1e1;
+  --chpy-prompt-highlight: #181818;
+
+  /* Inline Prompt Box */
+  --chpy-inlineprompt-bg: #232323;
+  --chpy-inlineprompt-color: #ffffff;
+  --chpy-inlinepromot-msgtext: #ffffff;
+  --chpy-inlineprompt-border: #adadad;
+}
+
+.chpy-theme-glossy {
+  /* Buttons */
+  --chpy-button-active: linear-gradient(
+      147.17deg,
+      #73abff -4.72%,
+      #0e6eff 116.58%
+    ),
+    #f1f5f9;
+  --chpy-button-active-text: #ffffff;
+  --chpy-button-inactive: linear-gradient(
+      147.17deg,
+      #73abff -4.72%,
+      #0e6eff 116.58%
+    ),
+    #f1f5f9;
+  --chpy-button-inactive-text: #ffffff;
+  --chpy-button-border: rgba(24, 24, 24, 0.15);
+  --chpy-color-bg-hover: rgba(78, 88, 119, 0.05);
+  --chpy-navbar-cursor-bg: linear-gradient(
+      147.17deg,
+      #ff9f73 -4.72%,
+      #ff6433 116.58%
+    ),
+    #f1f5f9;
+  --chpy-navbar-cursor-color: #fff;
+  --chpy-button-hover: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    linear-gradient(147.17deg, #73abff -4.72%, #0e6eff 116.58%), #f1f5f9;
+  --chpy-button-trash-hover: linear-gradient(
+      147.17deg,
+      #ff9f73 -4.72%,
+      #ff6433 116.58%
+    ),
+    #f1f5f9;
+  --chpy-button-trash-color: #fff;
+  --chpy-button-border: rgba(255, 255, 255, 0.15);
+
+  /* Checkbox */
+  --chpy-checkbox-color-active: #237bff;
+  --chpy-checkbox-color-inactive: #000000;
+
+  /* Background */
+  --chpy-color-bg: #f1f5f9;
+  --chpy-color-bg-secondary: #ffffff;
+  --chpy-color-bg-border: #c2d3e5;
+  --chpy-box-shadow: 4px 4px 16px #c9d9e8, -2px -2px 16px #ffffff;
+  --chpy-color-bg-gradient: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    linear-gradient(147.17deg, #73abff -4.72%, #0e6eff 116.58%), #f1f5f9;
+  --chpy-navbar-bg: #f1f5f9;
+
+  /* Text */
+  --chpy-color-text: #4e5877;
+  --chpy-navbar-color-text: #4e5877;
+  --chpy-navbar-color-text-hover: #ffffff;
+
+  /* Divider */
+  --chpy-color-divider-top: #ffffff;
+  --chpy-color-divider-bottom: #c2d3e5;
+
+  /* Input */
+  --chpy-color-input-gradient: rgba(241, 245, 249, 0.5);
+
+  /* Profile Icons */
+  --chpy-profile-bg: #03c68b;
+  --chpy-profile-shadow: 4px 4px 16px #c9d9e8, -2px -2px 16px #ffffff;
+  --chpy-profile-color: #ffffff;
+
+  /* Prompt */
+  --chpy-prompt-bg: linear-gradient(147.17deg, #73abff -4.72%, #0e6eff 116.58%),
+    #f1f5f9;
+  --chpy-prompt-color: #ffffff;
+  --chpy-prompt-highlight: #ffffff;
+
+  /* Free Tier Color */
+  --chpy-prompt-bg: linear-gradient(147.17deg, #73abff -4.72%, #0e6eff 116.58%),
+    #f1f5f9;
+  --chpy-prompt-color: #ffffff;
+  --chpy-free-tier-text: #4e5877;
+
+  /* Inline Prompt Box */
+  --chpy-inlineprompt-bg: #ffffff;
+  --chpy-inlineprompt-color: #4e5877;
+  --chpy-inlinepromot-msgtext: #4e5877;
+  --chpy-inlineprompt-border: #c2d3e5;
+}
+
+/* body.chpy-sidebar-show,
+body.chpy-sidebar-show * {
+  max-width: calc(100vw - var(--chpy-sidebar-width));
+} */
+
+#chippy-sidebar {
+  position: fixed;
+  z-index: 99999999;
+  top: 0px;
+  right: 0px;
+}
